@@ -1,0 +1,68 @@
+/* Profile Pic */
+.pic-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 15px;
+  margin-bottom: 30px;
+}
+.profile-pic {
+  border-radius: 190px;
+  border: 20px solid #fff;
+  -webkit-box-shadow: 0px 1px 30px -2px rgba(102,102,102,1);
+  -moz-box-shadow: 0px 1px 30px -2px rgba(102,102,102,1);
+  box-shadow: 0px 1px 30px -2px rgba(102,102,102,1);
+  width: 80%;
+}
+/* Profile Pic */
+
+/* Profile */
+.profile-container {
+  padding: 15px 0;
+}
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+/* Profile */
+
+/* Caption */
+.caption-container {
+  padding: 25px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caption {
+  color: #333;
+}
+.caption > h5 {
+  color: #aaa;
+}
+.caption > h1 {
+  margin-bottom: 20px;
+  font-size: 48px;
+  line-height: 56px;
+}
+.caption > p {
+  color: #666;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 0 40px;
+}
+/* Caption */
+
+/* Button Cv */
+.btn-rounded {
+  padding: 7px 30px;
+  border-radius: 100px;
+}
+.btn-primary {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  color: #333;
+  font-weight: 500;
+  box-shadow: 0px 10px 10px -8px rgba(0,0,0,.22);
+  transition: 0.4s;
+}
+/* Button Cv */
