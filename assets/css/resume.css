@@ -1,0 +1,95 @@
+h4 {
+  font-size: 21px;
+}
+
+.content {
+  margin-top: -50px;
+}
+
+.content-resume {
+  padding: 0 12px;
+}
+
+.content-title > span {
+  font-size: 11px;
+  color: #a7a7a7;
+}
+
+.title-resume {
+  margin-bottom: 15px;
+}
+
+.skill-name {
+  font-size: 12px;
+}
+
+.skill-gauge {
+  font-size: 12px;
+  color: #a7a7a7;
+}
+
+.border-grey {
+  border-bottom: 2px solid #eaeaea;
+  margin-bottom: -2px;
+  max-width: 105px;
+}
+
+.border-bottom-blue {
+  border-bottom: 2px solid #007bff;
+  max-width: 40px;
+  margin-bottom: 30px;
+}
+
+.years {
+  border: 2px solid #007bff;
+  border-radius: 30px;
+  padding: 4px 10px;
+  margin-right: 8px;
+  font-weight: 600;
+  color: #666 !important;
+}
+
+.content-desc {
+  border-left: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  padding: 18px 21px;
+  margin-left: 18px;
+}
+
+.content-desc > ul > li {
+  color: #a7a7a7;
+  
+}
+
+.space-content {
+  border-left: 1px solid #eaeaea;
+  min-height: 25px;
+  margin-left: 18px;
+}
+
+.bar {
+  border: 2px solid #eaeaea;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.card-certificate {
+  border: 3px solid #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+
+.card-desc {
+  padding: 16px;
+}
+
+.card-desc > h5 {
+  font-size: 17px;
+}
+
+.card-desc > span {
+  font-size: 14px;
+  color: #a7a7a7;
+}

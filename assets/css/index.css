@@ -94,3 +94,20 @@ body {
     transition: 0.3s;
     padding-right: 10px;
 }
+
+.header-title {
+    padding: 65px 70px;
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+    background-color: #fcfcfc;
+    margin-bottom: 65px;
+    margin-top: -50px;
+  }
+  .header-title > h1 {
+    font-size: 44px;
+  }
+
+  .content > .row {
+    padding: 0 16px;
+    margin: 0 !important;
+  }
