@@ -15,5 +15,5 @@
 const d = new Date()
 const crDate = d.getFullYear()
 const crText = document.getElementById('copyright')
-crText.textContent += ` ${crDate} All rights reserved.`
+crText.textContent += ` 2021 All rights reserved.`
 
