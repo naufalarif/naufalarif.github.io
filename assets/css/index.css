@@ -1,3 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .container {
     padding: 2rem 15px !important;
 }
@@ -70,6 +85,14 @@
 
 .project > div > div {
     margin-bottom: 1rem;
+}
+
+.card-project {
+    padding: 6px;
+    cursor: pointer;
+    /* border: 1px solid #a7a7a7; */
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 @media(min-width: 680px) {

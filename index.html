@@ -4,12 +4,15 @@
 	  <!-- Required meta tags -->
 	  <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="This is Naufal Arif Pratama HTML resume">
+		<meta name="description" content="Naufal Arif Pratama Portfolio">
+
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.gstatic.com"> 
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 	  <!-- Style -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/index.css">
-		<!-- <link rel="stylesheet" href="assets/css/home.css"> -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="icon" href="assets/imgs/logo.jpg" />
 	  <title>Naufal Arif</title>
@@ -21,7 +24,7 @@
 				<main class="biodata">
 					<div class="greeting">
 						<h5>Hi, I am</h5>
-						<h1>Naufal</h1>
+						<h1 class="bolder">Naufal</h1>
 						<h5>I am Frontend Engineer</h5>
 					</div>
 					<div class="describe">
@@ -38,19 +41,14 @@
 						<a class="text-link" target="blank" href="https://www.instagram.com/naufaltwelve/">Instagram</a>
 					</div>
 				</main>
-				<!-- <div class="img-container">
-					<img 
-						class="profile-pic"
-						src="assets/imgs/me-square.png"
-						alt="profile"
-					/>
-				</div> -->
 			</div>
+			<hr/>
 			<div>
-				<h2 class="subtitle">My Stack</h2>
+				<h2 class="subtitle bolder">My Stack</h2>
 				<div class="stack">
 					<div>
 						<img 
+							loading="lazy"
 							class="stack-img"
 							src="assets/imgs/javascript.png"
 							alt="profile"
@@ -58,6 +56,7 @@
 					</div>
 					<div>
 						<img 
+							loading="lazy"
 							class="stack-img"
 							src="assets/imgs/reactjs.png"
 							alt="profile"
@@ -65,6 +64,7 @@
 					</div>
 					<div>
 						<img
+							loading="lazy"
 							class="stack-img" 
 							src="assets/imgs/redux.png"
 							alt="profile"
@@ -72,6 +72,7 @@
 					</div>
 					<div>
 						<img
+							loading="lazy"
 							class="stack-img" 
 							src="assets/imgs/node.png"
 							alt="profile"
@@ -79,28 +80,31 @@
 					</div>
 				</div>
 			</div>
+			<hr/>
 			<div>
-				<h2 class="subtitle">My Personal Project</h2>
+				<h2 class="subtitle bolder">My Personal Project</h2>
 				<div class="project">
-					<div>
+					<div class="card-project" onclick="window.open('https://mountnesia-f940e.web.app/')">
 						<div>
 							<img 
+								loading="lazy"
 								class="melaku"
 								src="assets/imgs/melaku.png"
 								alt="profile"
 							/>	
 						</div>
-						<a class="text-link" target="blank" href="https://mountnesia-f940e.web.app/">Melaku</a>
+						<h4>Melaku</h4>
 					</div>
-					<div>
+					<div class="card-project" onclick="window.open('https://pokemon-app-ebon.vercel.app/')">
 						<div>
 							<img 
+								loading="lazy"
 								class="pokemon"
 								src="assets/imgs/pokemon.PNG"
 								alt="profile"
 							/>	
 						</div>
-						<a class="text-link" target="blank" href="https://pokemon-app-ebon.vercel.app/">Pokemon App</a>
+						<h4>Pokemon App</h4>
 					</div>
 				</div>
 			</div>
