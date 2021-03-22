@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Encode Sans', sans-serif;
 }
 
 .bolder {
@@ -15,6 +15,12 @@ hr {
 
 .container {
     padding: 2rem 15px !important;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .biodata {
@@ -53,29 +59,34 @@ hr {
 }
 
 .stack {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem; */
+}
+
+.row > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 2rem;
 }
 
 .stack > div > img {
-    width: 100%;
+    width: 80%;
 }
-/* Icon */
-
-
 
 .stack > div {
-    margin: 10px;
+    
 }
 
 .project {
-    display: flex;
+    /* display: flex;
     flex-direction: row;  
     justify-content: center;
-    align-items: center;  
+    align-items: center;   */
 }
 
 .project > div {
@@ -88,6 +99,10 @@ hr {
 }
 
 .card-project {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;  
     padding: 6px;
     cursor: pointer;
     /* border: 1px solid #a7a7a7; */

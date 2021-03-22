@@ -7,8 +7,8 @@
 		<meta name="description" content="Naufal Arif Pratama Portfolio">
 
 		<!-- Font -->
-		<link rel="preconnect" href="https://fonts.gstatic.com"> 
-		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 	  <!-- Style -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -23,9 +23,18 @@
 			<div class="summary">
 				<main class="biodata">
 					<div class="greeting">
-						<h5>Hi, I am</h5>
-						<h1 class="bolder">Naufal</h1>
-						<h5>I am Frontend Engineer</h5>
+						<div>
+							<h5>Hi, I am</h5>
+							<h1 class="bolder">Naufal</h1>
+							<h5>I am Frontend Engineer</h5>
+						</div>
+						<div>
+							<img 
+								src="./assets/imgs/me-square.png"
+								width="150px"
+								alt='image'
+							/>
+						</div>
 					</div>
 					<div class="describe">
 						<p>
@@ -45,8 +54,8 @@
 			<hr/>
 			<div>
 				<h2 class="subtitle bolder">My Stack</h2>
-				<div class="stack">
-					<div>
+				<div class="stack row">
+					<div class="col-12 col-sm-3">
 						<img 
 							loading="lazy"
 							class="stack-img"
@@ -54,7 +63,7 @@
 							alt="profile"
 						/>
 					</div>
-					<div>
+					<div class="col-12 col-sm-3">
 						<img 
 							loading="lazy"
 							class="stack-img"
@@ -62,7 +71,7 @@
 							alt="profile"
 						/>
 					</div>
-					<div>
+					<div class="col-12 col-sm-3">
 						<img
 							loading="lazy"
 							class="stack-img" 
@@ -70,7 +79,7 @@
 							alt="profile"
 						/>
 					</div>
-					<div>
+					<div class="col-12 col-sm-3">
 						<img
 							loading="lazy"
 							class="stack-img" 
@@ -83,24 +92,24 @@
 			<hr/>
 			<div>
 				<h2 class="subtitle bolder">My Personal Project</h2>
-				<div class="project">
-					<div class="card-project" onclick="window.open('https://mountnesia-f940e.web.app/')">
+				<div class="project row justify-content-center">
+					<div class="card-project col-8 col-sm-3" onclick="window.open('https://mountnesia-f940e.web.app/')">
 						<div>
 							<img 
 								loading="lazy"
-								class="melaku"
+								width="100%"
 								src="assets/imgs/melaku.png"
 								alt="profile"
 							/>	
 						</div>
 						<h4>Melaku</h4>
 					</div>
-					<div class="card-project" onclick="window.open('https://pokemon-app-ebon.vercel.app/')">
+					<div class="card-project col-8 col-sm-3" onclick="window.open('https://pokemon-app-ebon.vercel.app/')">
 						<div>
 							<img 
 								loading="lazy"
-								class="pokemon"
-								src="assets/imgs/pokemon.PNG"
+								width="100%"
+								src="assets/imgs/pokeball.png"
 								alt="profile"
 							/>	
 						</div>
