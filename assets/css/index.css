@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Encode Sans', sans-serif;
 }
@@ -58,14 +62,6 @@ hr {
     text-align: center;
 }
 
-.stack {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem; */
-}
-
 .row > div {
     display: flex;
     justify-content: center;
@@ -78,15 +74,9 @@ hr {
     width: 80%;
 }
 
-.stack > div {
-    
-}
-
-.project {
-    /* display: flex;
-    flex-direction: row;  
-    justify-content: center;
-    align-items: center;   */
+.content {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .project > div {
@@ -138,4 +128,27 @@ a {
 
 .stack-img {
     width: 100%;
+}
+
+.medium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    height: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px;
+    transition: .2s;
+}
+
+.medium:hover {
+    transition: .2s;
+    box-shadow: 3px 3px 18px 3px #ccc;
+}
+
+.medium > h4 {
+    font-weight: 600;
 }
