@@ -10,6 +10,11 @@ body {
     font-weight: bolder;
 }
 
+.project-img {
+    display: flex;
+    align-items: center;
+}
+
 hr {
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -95,8 +100,13 @@ hr {
     align-items: center;  
     padding: 6px;
     cursor: pointer;
-    /* border: 1px solid #a7a7a7; */
     border-radius: 15px;
+    box-shadow: 1px 1px 7px 3px #ccc;
+    transition: .2s;
+}
+
+.card-project:hover {
+    transition: .2s;
     box-shadow: 3px 3px 5px 6px #ccc;
 }
 
